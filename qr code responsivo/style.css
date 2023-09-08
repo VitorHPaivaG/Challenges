@@ -1,0 +1,70 @@
+@charset "UTF-8"; 
+
+/*
+typical device breakpoints
+
+telas pequenas: até 600px
+celular: 600px até 768px
+tablet: 768px até 1024px
+desktop: 992px até 1200px
+grandes telas: acima de 1200px
+de acordo com a w3c
+
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+:root {
+    --cfundo: #D5E1EF;
+    --ctitulo: #223A59 ;
+    --ctexto: #788095;
+}
+
+body, html {
+    background-color: var(--cfundo);
+    width: 100%;
+}
+
+img {
+    width: 350px;
+
+    margin: auto;
+    display: block;
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+}
+
+#principal {
+    width: 375px;
+    height: 510px;
+
+    display: block;
+    margin: auto;
+
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: white;
+
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.123);
+}
+
+#titulo {
+    font-size: 25px;
+    margin: 15px;
+    margin-top: 0px;
+    text-align: center;
+    font-family: var(--ctitulo);
+}
+
+#texto {
+    font-size: 15px;
+    margin: 15px;
+    text-align: center;
+    font-family: var(--ctexto);
+}
